@@ -218,12 +218,14 @@ def main():
     print(f"\n{'RANK':<5} {'NAME':<25} {'COMPANY':<20} {'SCORE'}")
     print("-" * 60)
     for i, r in enumerate(results, 1):
-        print(f"{i:<5} {r['name'][:24]:<25} {r['company'][:19]:<20} {r['score']}/10")
+        name = (r['name'] or '')[:24]
+        company = (r['company'] or '')[:19]
+        print(f"{i:<5} {name:<25} {company:<20} {r['score']}/10")
 
     # Top 3 details
     print("\n--- Top 3 Details ---")
     for r in results[:3]:
-        print(f"\n{r['name']} @ {r['company']} — {r['score']}/10")
+        print(f"\n{r['name'] or ''} @ {r['company'] or ''} — {r['score']}/10")
         print(f"  {r['reasoning']}")
         if r["top_signals"]:
             print(f"  Signals: {', '.join(r['top_signals'])}")
