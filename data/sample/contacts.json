@@ -1,0 +1,62 @@
+[
+  {
+    "id": "001",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@scalefast.io",
+    "job_title": "VP of Sales",
+    "company": "ScaleFast",
+    "industry": "SaaS",
+    "num_employees": "120",
+    "website": "https://scalefast.io",
+    "lifecycle_stage": "lead",
+    "country": "United States"
+  },
+  {
+    "id": "002",
+    "name": "Marcus Webb",
+    "email": "m.webb@growthloop.com",
+    "job_title": "Head of Revenue",
+    "company": "GrowthLoop",
+    "industry": "MarTech",
+    "num_employees": "85",
+    "website": "https://growthloop.com",
+    "lifecycle_stage": "marketingqualifiedlead",
+    "country": "United States"
+  },
+  {
+    "id": "003",
+    "name": "Priya Nair",
+    "email": "priya@finledger.co",
+    "job_title": "CRO",
+    "company": "FinLedger",
+    "industry": "FinTech",
+    "num_employees": "200",
+    "website": "https://finledger.co",
+    "lifecycle_stage": "salesqualifiedlead",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "004",
+    "name": "Tom Bradley",
+    "email": "tom.bradley@freelance.me",
+    "job_title": "Freelance Consultant",
+    "company": "",
+    "industry": "",
+    "num_employees": "1",
+    "website": "",
+    "lifecycle_stage": "lead",
+    "country": "Canada"
+  },
+  {
+    "id": "005",
+    "name": "Anika Johansson",
+    "email": "anika@cloudpipe.se",
+    "job_title": "Sales Operations Manager",
+    "company": "CloudPipe",
+    "industry": "Software",
+    "num_employees": "300",
+    "website": "https://cloudpipe.se",
+    "lifecycle_stage": "lead",
+    "country": "Sweden"
+  }
+]
